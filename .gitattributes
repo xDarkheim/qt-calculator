@@ -1,0 +1,24 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# C++ source files
+*.cpp text diff=cpp
+*.h text diff=cpp
+
+# CMake files
+CMakeLists.txt text
+*.cmake text
+
+# QMake files
+*.pro text
+
+# Bash scripts
+*.sh text eol=lf
+
+# Documentation
+*.md text diff=markdown
+
+# Binary files
+*.png binary
+*.jpg binary
+*.ico binary
